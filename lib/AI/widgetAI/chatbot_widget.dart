@@ -113,7 +113,7 @@ class _ChatBotWidgetState extends State<ChatBotWidget> {
                   minLines: 1,
                   maxLines: 3,
                   decoration: InputDecoration(
-                    hintText: "Descreva o que quer codar...",
+                    hintText: "Descreva o que quer codar....",
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),

@@ -23,7 +23,7 @@ class DeepSeekService {
     if (response.statusCode == 200) {
       return jsonDecode(response.body)['choices'][0]['text'].trim();
     } else {
-      throw Exception('Falha ao gerar código: ${response.body}');
+      throw Exception('Falhas ao gerar código: ${response.body}');
     }
   }
 }
